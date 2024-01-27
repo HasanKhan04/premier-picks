@@ -1,0 +1,84 @@
+{
+    "teams": [
+        {
+            "image": "/teams/Arsenal.png", 
+            "team": "Arsenal"
+        }, 
+        {
+            "image": "/teams/AstonVilla.png", 
+            "team": "Aston-Villa"
+        },
+        {
+            "image": "/teams/Bournemouth.png", 
+            "team": "Bournemouth"
+        },
+        {
+            "image": "/teams/Brentford.png", 
+            "team": "Brentford"
+        },
+        {
+            "image": "/teams/Brighton.png", 
+            "team": "Brighton"
+        },
+        {
+            "image":"/teams/Burnley.png",
+            "team": "Burnley"
+        },
+        {
+            "image": "/teams/Chelsea.png", 
+            "team": "Chelsea"
+        },
+        {
+            "image": "/teams/CrystalPalace.png", 
+            "team": "Crystal-Palace"
+        }, 
+        {
+            "image": "/teams/Everton.png", 
+            "team": "Everton"
+        },
+        {
+            "image": "/teams/Fulham.png", 
+            "team": "Fulham"
+        },
+        {
+            "image": "/teams/Liverpool.png", 
+            "team": "Liverpool"
+        },
+        {
+            "image": "teams/LutonTown.png",
+            "team": "Luton-Town"
+        },
+        {
+            "image": "/teams/ManchesterCity.png", 
+            "team": "Manchester-City"
+        },
+        {
+            "image": "/teams/ManchesterUnited.png", 
+            "team": "Manchester-United"
+        },
+        {
+            "image": "/teams/NewcastleUnited.png", 
+            "team": "Newcastle-United"
+        },
+        {
+            "image": "/teams/NottinghamForest.png", 
+            "team": "Nottingham-Forest"
+        },
+        {
+            "image": "/teams/SheffieldUnited.png", 
+            "team": "Sheffield-United"
+        },
+        {
+            "image": "/teams/Tottenham.png", 
+            "team": "Tottenham"
+        },
+        {
+            "image": "/teams/WestHam.png", 
+            "team": "West-Ham"
+        },
+        {
+            "image": "/teams/Wolves.png", 
+            "team": "Wolves"
+        }
+    ]
+}

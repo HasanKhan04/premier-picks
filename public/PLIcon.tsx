@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Logo = () => {
+const PLIcon = () => {
   return (
     <div style={{ top: 0, left: 0, width: '50%', height: '50%', zIndex: 0, position: 'relative'}}>
       <svg 
@@ -17,4 +17,4 @@ const Logo = () => {
   );
 };
 
-export default Logo;
+export default PLIcon;

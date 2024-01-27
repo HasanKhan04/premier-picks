@@ -16,7 +16,7 @@ const Navbar = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
             </div>
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52">
-                <li><a>Teams</a></li>
+                <li><a href='/teams'>Teams</a></li>
                 <li><a>Nations</a></li>
                 <li><a>Positions</a></li>
             </ul>
@@ -25,14 +25,14 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex flex-1" style={{ width: '40%', display: "flex" }}>
             <ul className="menu menu-horizontal px-1 justify-between" style={{ width: '100%' }}>
-            <li><a><MdGroups size={40}/></a></li>
+            <li><a href='/teams'><MdGroups size={40}/></a></li>
             <li><a><FaEarthAmericas size={30}/></a></li>
             <li><a><GiSoccerKick size={40}/></a></li>
             </ul>
         </div>
         <div className="navbar-end" style={{ width: '30%' }}>
             <div className="form-control">
-                <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
+                <input type="text" placeholder="Search Players" className="input input-bordered w-24 md:w-auto" />
             </div>
         </div>
     </div>

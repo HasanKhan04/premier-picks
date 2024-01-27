@@ -1,5 +1,5 @@
 import "./globals.css";
-import Logo from "@/public/Logo";
+import PLIcon from "@/public/PLIcon";
 import Badges from "@/public/Badges";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
         Premier League player stats at your fingertips.
       </p>
       <button className="absolute bottom-20 left-20 btn btn-outline btn-lg btn-secondary">Get Started</button>
-      <Logo />
+      <PLIcon />
       <Badges />
     </main>
   )
