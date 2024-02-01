@@ -1,0 +1,8 @@
+{
+    "positions": [
+        { "name": "Attackers", "image": "/positions/Attacker.png", "code": "FW" },
+        { "name": "Midfielders", "image": "/positions/Midfielder.png", "code": "MF" },
+        { "name": "Defenders", "image": "/positions/Defender.png", "code": "DF" },
+        { "name": "Goalkeepers", "image": "/positions/Goalkeeper.png", "code": "GK" }
+    ]
+}

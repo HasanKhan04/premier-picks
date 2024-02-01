@@ -1,19 +1,18 @@
 import React from 'react'
-import teamData from "../../public/data/teams.json";
 import Card from './Card';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
+import { CardGridProps } from '../types/interfaces';
 
 
-const CardGrid = () => {
+const CardGrid: React.FC<CardGridProps> = ({ data } ) => {
 
-    const allTeams = teamData["teams"];
     return (
         <Box sx={{ width: '100%', padding: '55px' }}>
             <Grid className='gap-4' container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-                {allTeams.map((team) => (
-                    <Grid item key={team.team} xs={'auto'} sm={'auto'} md={'auto'} lg={'auto'}>
-                    <Card teamName={team.team} imageUrl={team.image} />
+                {data.map((d) => (
+                    <Grid item key={d.name} xs={'auto'} sm={'auto'} md={'auto'} lg={'auto'}>
+                        <Card name={d.name} image={d.image} code={d.code}/>
                     </Grid>
                 ))}
             </Grid>
