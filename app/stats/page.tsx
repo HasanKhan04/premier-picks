@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from 'react';
+import React, { Suspense, useEffect, useState } from 'react';
 import "../globals.css";
 import { useSearchParams } from 'next/navigation';
 import { getPlayers } from '../api';
@@ -88,6 +88,7 @@ const Stats = () => {
       console.log(players)
 
     return (
+        <Suspense fallback={<div>Loading...</div>}>
         <main className='relative min-h-screen'>
             <h1 className="z-10 pl-14 pt-10 pb-6 text-white font-black text-6xl uppercase">
                 Player Data
@@ -137,6 +138,7 @@ const Stats = () => {
             />
             </TableContainer>
         </main>
+        </Suspense>
     )
 }
 
