@@ -19,7 +19,7 @@ export default function Home() {
       <p className="absolute bottom-40 left-20 z-10 text-white font-black text-lg uppercase">
         Premier League player stats at your fingertips.
       </p>
-      <button onClick={handleClick} type="button" className="absolute bottom-20 left-20 btn btn-outline btn-lg btn-secondary">Get Started</button>
+      <button onClick={handleClick} className="absolute bottom-20 left-20 btn btn-outline btn-lg btn-secondary">Get Started</button>
       <PLIcon />
       <Badges />
     </main>

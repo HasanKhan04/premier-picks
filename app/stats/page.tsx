@@ -29,7 +29,7 @@ const Stats = () => {
 
         };
         fetchData();
-    }, []);
+    }, [searchParams]);
 
     interface Column {
         id: keyof Player;
